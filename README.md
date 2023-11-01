@@ -1,6 +1,8 @@
 # Fork [MiniVue](https://github.com/woai3c/mini-vue/)
 
-拷贝 [MiniVue v0.1](https://github.com/woai3c/mini-vue/tree/v0.1) 代码学习。
+拷贝 [MiniVue v0.1](https://github.com/woai3c/mini-vue/tree/v0.1) 代码，方便个人本地调试运行，学习 vue v1.0 基本原理。
+
+重新配置了webpack，供本地运行调试使用。
 
 克隆项目之后，安装、运行：
 
