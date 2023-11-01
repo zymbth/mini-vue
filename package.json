@@ -1,35 +1,20 @@
 {
-  "name": "mini-vue",
+  "name": "test-vue-min",
   "version": "1.0.0",
-  "description": "",
-  "main": "webpack.config.js",
-  "dependencies": {
-    "ansi-regex": "^6.0.1",
-    "ansi-escapes": "^3.1.0"
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.7.0",
-    "clean-webpack-plugin": "^0.1.19",
-    "html-webpack-plugin": "^5.5.0",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.9.0"
-  },
-  "scripts": {
-    "dev": "webpack-dev-server --open --mode development",
-    "build": "webpack --config webpack.config.js --mode production"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/woai3c/mini-vue.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/woai3c/mini-vue/issues"
-  },
-  "homepage": "https://github.com/woai3c/mini-vue#readme"
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
 }
